@@ -1,0 +1,16 @@
+.currencyName {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    margin-left: 10px;
+  }
+
+  .imgBlock {
+    width: 20px;
+    height: 20px;
+  }
+}

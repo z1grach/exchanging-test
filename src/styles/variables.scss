@@ -1,0 +1,13 @@
+@mixin customInput {
+  font-weight: inherit;
+  font-size: inherit;
+
+  background-color: transparent;
+
+  border: none;
+  outline: none;
+
+  padding: 0 10px;
+
+  height: inherit;
+}

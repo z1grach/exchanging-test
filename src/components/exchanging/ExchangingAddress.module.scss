@@ -1,0 +1,84 @@
+.addressBlock {
+  width: 100%;
+
+  margin-top: 2em;
+
+  display: flex;
+  flex-flow: column;
+
+  .inputBlock {
+    margin-top: 4px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .input {
+      height: 50px;
+      width: min(723px, 100%);
+
+      background-color: #F6F7F8;
+
+      border-radius: 5px;
+      border: 1px solid #E3EBEF;
+      outline: none;
+    }
+
+    .buttonBlock {
+      display: flex;
+      flex-flow: column;
+
+      text-align: center;
+
+      margin-left: 5px;
+
+      span {
+        margin-top: 4px;
+
+        font-weight: 400;
+        font-size: 16px;
+        color: #E03F3F;
+      }
+
+      button {
+        width: 205px;
+        height: 50px;
+
+        background-color: #11B3FE;
+
+        border-radius: 5px;
+
+        font-weight: 700;
+        font-size: 16px;
+        color: #FFFFFF;
+
+        &:hover {
+          background-color: #0095E0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .addressBlock .inputBlock {
+    flex-flow: column;
+
+    .input {
+      width: 100%;
+    }
+
+    .buttonBlock {
+      margin-top: 15px;
+      margin-left: 0;
+
+      width: 100%;
+
+      button {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}

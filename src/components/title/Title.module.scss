@@ -1,0 +1,19 @@
+.titles {
+  h1 {
+    font-size: 50px;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 800px) {
+  .titles {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
