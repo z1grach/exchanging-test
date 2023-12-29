@@ -47,8 +47,7 @@ const ExchangingMain = observer(() => {
     if (loading) return <div style={{marginTop: '30px', fontSize: '1.5em'}}>Loading...</div>;
 
     if (showError) return <div style={{marginTop: '30px', fontSize: '1.5em'}}>ERROR</div>;
-
-    console.log('ExchangingMain')
+    
     return <CurrentExchange/>;
 });
 
