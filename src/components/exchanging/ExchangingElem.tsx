@@ -8,7 +8,6 @@ import {Context} from "../../index";
 const ExchangingElem = observer(({type}: { type: string }) => {
     const {coreStore} = useContext(Context);
 
-    console.log('ExchangingElem', type)
     return (
         <div className={styles.exchangeShell}>
             {coreStore.showList === type

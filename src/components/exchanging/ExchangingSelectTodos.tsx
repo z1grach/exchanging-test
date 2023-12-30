@@ -7,7 +7,6 @@ import {Context} from "../../index";
 const ExchangingSelectTodos = observer(({todos, type}: { todos: ICurrency[], type: string }) => {
     const {coreStore} = useContext(Context);
 
-    console.log('ExchangingSelectTodos')
     return (
         <>
             {todos.map((el: ICurrency) => {

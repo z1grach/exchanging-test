@@ -8,7 +8,6 @@ import ExchangingLoading from "./ExchangingLoading";
 
 const CurrentExchange = observer(() => {
 
-    console.log('CurrentExchange')
     return (
         <div className={styles.exchangeMain}>
             <ExchangingLoading/>

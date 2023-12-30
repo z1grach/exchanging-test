@@ -44,10 +44,9 @@ const ExchangingInput = observer(({type}: { type: string }) => {
     }
 
     useEffect(() => {
-        const value = coreStore.minExchange.toString()
-        console.log(1)
+        const value = coreStore.minExchange.toString();
+
         if (value === inputValue) return;
-        console.log(2)
 
         setInputValue(value);
         // eslint-disable-next-line

@@ -9,7 +9,6 @@ import ExchangingInput from "./ExchangingInput";
 const ExchangingInputLayout = observer(({type}: { type: string }) => {
     const {coreStore} = useContext(Context);
 
-    console.log('ExchangingInputLayout', type)
     return (
         <div className={styles.exchangeBlock}>
             <ExchangingInput type={type}/>
